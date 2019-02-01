@@ -1,0 +1,28 @@
+{
+  "name": "techsession_firebase",
+  "version": "1.0.0",
+  "description": "Tech session introduction to firebase",
+  "main": "index.html",
+  "author": "Ville Nuutinen <ville.nuutinen@wunder.dog>",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^5.8.1",
+    "parcel-bundler": "^1.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "firebase-tools": "^6.3.0",
+    "typescript": "^3.2.4"
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "firebase-serve": "firebase serve",
+    "firebase-login": "firebase login",
+    "firebase-init": "firebase init",
+    "firebase-use": "firebase use",
+    "firebase-deploy": "firebase deploy"
+  }
+}
